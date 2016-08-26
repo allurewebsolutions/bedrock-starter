@@ -1,0 +1,40 @@
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+!web/app/themes/.gitkeep
+
+# WordPress
+web/wp
+
+# WP-CLI
+db-sync
+sql-dump-*.sql
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Vendor (e.g. Composer)
+web/vendor/**/*
+!web/vendor/.gitkeep
+vendor/*
+!vendor/.gitkeep
+
+# Node Package Manager
+node_modules
+
+# Vagrant
+bin
+.vagrant
+
+# IDE Editors
+.idea/
+
+# Custom for Bedrock Starter
+web/app/updraft
+web/app/wflogs
