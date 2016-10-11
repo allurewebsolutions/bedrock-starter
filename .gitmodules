@@ -2,4 +2,3 @@
 	path = web/app/themes/sage-starter
 	url = git@github.com:allurewebsolutions/sage-starter.git
 	branch = master
-git
