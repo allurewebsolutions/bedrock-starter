@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b7bc3422e5bc4fc784a65a2f76406b5b",
-    "content-hash": "4275a844b95d38932ac58120928a9780",
+    "hash": "7a1bd8bf9f2583247f1fcbbf8422dfec",
+    "content-hash": "1c179a931daf27d84ae90f075e74595d",
     "packages": [
         {
             "name": "composer/installers",
@@ -109,16 +109,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.7",
+            "version": "4.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "b327faa6feea3a4058178dee7ac8b512bd957e92"
+                "reference": "6a6a20e568db37fb501fe9deb75ed2a8600d1b30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/b327faa6feea3a4058178dee7ac8b512bd957e92",
-                "reference": "b327faa6feea3a4058178dee7ac8b512bd957e92",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/6a6a20e568db37fb501fe9deb75ed2a8600d1b30",
+                "reference": "6a6a20e568db37fb501fe9deb75ed2a8600d1b30",
                 "shasum": ""
             },
             "require": {
@@ -142,7 +142,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-12-06 18:46:46"
+            "time": "2017-01-11 17:46:47"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -236,21 +236,24 @@
         },
         {
             "name": "roots/soil",
-            "version": "3.7.0",
+            "version": "3.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/soil.git",
-                "reference": "085fd3c9b16df5b72dce4fba09de0207937ef721"
+                "reference": "5b9b9d8a878b295f44b35cba826c462b20cc1d9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roots/soil/zipball/085fd3c9b16df5b72dce4fba09de0207937ef721",
-                "reference": "085fd3c9b16df5b72dce4fba09de0207937ef721",
+                "url": "https://api.github.com/repos/roots/soil/zipball/5b9b9d8a878b295f44b35cba826c462b20cc1d9c",
+                "reference": "5b9b9d8a878b295f44b35cba826c462b20cc1d9c",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
                 "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "^2.5.1"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -274,7 +277,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2016-03-07 19:49:21"
+            "time": "2016-08-30 18:15:45"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -465,15 +468,15 @@
         },
         {
             "name": "wpackagist-plugin/custom-post-type-ui",
-            "version": "1.4.3",
+            "version": "1.5.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/custom-post-type-ui/",
-                "reference": "tags/1.4.3"
+                "reference": "tags/1.5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.4.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.5.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -645,15 +648,15 @@
         },
         {
             "name": "wpackagist-plugin/wordfence",
-            "version": "6.2.9",
+            "version": "6.2.10",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/6.2.9"
+                "reference": "tags/6.2.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordfence.6.2.9.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordfence.6.2.10.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -665,15 +668,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.9",
+            "version": "4.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.9"
+                "reference": "tags/4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.9.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -725,15 +728,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-smushit",
-            "version": "2.5.2",
+            "version": "2.5.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-smushit/",
-                "reference": "tags/2.5.2"
+                "reference": "tags/2.5.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-smushit.2.5.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-smushit.2.5.3.zip",
                 "reference": null,
                 "shasum": null
             },
